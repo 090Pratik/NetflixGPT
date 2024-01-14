@@ -14,7 +14,27 @@ export const API_OPTIONS = {
   }
 };
 
-export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+export const TMDB_MOVIE_URL = "https://api.themoviedb.org/3/movie";
+
+export const YT_URL = "https://www.youtube.com/embed";
+
+export const YT_VIDEO_TRAILER_QUERY =
+  "&mute=1&autoplay=1&controls=0&showinfo=0&loop=1";
+
+export const TMDB_IMAGE_URL = "https://image.tmdb.org/t/p/w780";
+
+export const TMDB_SEARCH_URL =
+  "https://api.themoviedb.org/3/search/movie?query=";
+
+
+
+
+
+
+
+
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w780";
 
 export const BG_URL =
   "https://assets.nflxext.com/ffe/siteui/vlv3/fc164b4b-f085-44ee-bb7f-ec7df8539eff/d23a1608-7d90-4da1-93d6-bae2fe60a69b/IN-en-20230814-popsignuptwoweeks-perspective_alpha_website_large.jpg";
@@ -26,3 +46,4 @@ export const SUPPORTED_LANGUAGES = [
 ];
 
 export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+
